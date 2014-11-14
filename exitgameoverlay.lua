@@ -17,7 +17,7 @@ local function btnTap(event)
 	if (event.target.destination == "exit") then
 		os.exit()
 	else 
-		storyboard.gotoScene (event.target.destination,{ effect = "slideDown"} )
+		storyboard.gotoScene (event.target.destination,{ effect = "slideDown",delay=1000} )
 	end	
 	return true
 	

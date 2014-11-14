@@ -13,7 +13,8 @@ physics.setGravity( 0, 0 )
 
 --variable for menu screen
 local menuScreenGroup
-local mmScreen = display.newImage("images/mmScreen.png")
+--display your background image here
+--local mmScreen = display.newImage("images/mmScreen.png")
 local playBtn
 
 --game screen
